@@ -1,0 +1,24 @@
+{
+    "requestor": {
+        "userName": "UserName",
+        "fullName": "User Full Name",
+        "email": "user@email.com"
+    },
+    "updateSet": "7ukp99e8jm2zxngo8twzqtws8g49suyv",
+    "application": {
+        "id": "51s3foc6of5skpulzc6bidvn5c89xrp4",
+        "name": "Application Name"
+    },
+    "git": {
+        "repository": "repo_name"
+    },
+    "atf": {
+        "updateSetOnly": false
+    },
+    "source": {
+        "name": "https://source.service-now.com"
+    },
+    "master": {
+        "name": "https://target.service-now.com"
+    }
+}

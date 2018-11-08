@@ -1,0 +1,22 @@
+{
+  "name": "sn-cicd-example",
+  "version": "3.0.0",
+  "description": "Sample implementation of sn-cicd",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "worker": "node worker.js",
+    "server": "node server.js",
+    "devServer": "nodemon --ignore db/**/* --verbose --delay 2 server.js",
+    "devWorker": "nodemon --ignore db/**/* --verbose --delay 2 worker.js"
+  },
+  "author": "Boris Moers",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.5.1",
+    "dotenv": "6.0.0",
+    "nodemon": "1.17.3",
+    "object-assign-deep": "0.4.0",
+    "sn-cicd": "github:bmoers/sn-cicd#semver:^3"
+  }
+}
