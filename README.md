@@ -207,10 +207,9 @@ The project is designed to use extensions. The core project [(bmoers/sn-cicd)](h
 
 ### Dependencies
 
-https://github.com/bmoers/sn-cicd-example-v3\
+https://github.com/bmoers/sn-cicd-example-v3 \
 --> extends  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/bmoers/sn-cicd\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/bmoers/sn-cicd \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> uses  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/bmoers/sn-project  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/bmoers/sn-rest-client
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/bmoers/sn-project \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/bmoers/sn-rest-client
