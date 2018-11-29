@@ -15,9 +15,9 @@
 
 This is an example implementation of the [CICD Server](https://github.com/bmoers/sn-cicd) for [ServiceNow](https://www.servicenow.com/). It allows to send changes captured in Update-Sets in ServiceNow to a CICD pipeline including running ATF test cases in ServiceNow.\
 Example build results:
-- [Code extraction](https://github.com/bmoers/sn-cicd-example/tree/master/example/repo)
-- [ESLint report](http://htmlpreview.github.io/?https://github.com/bmoers/sn-cicd-example/blob/master/example/doc/lint/index.html)
-- [JsDoc documentation](http://htmlpreview.github.io/?https://github.com/bmoers/sn-cicd-example/blob/master/example/doc/docs/global.module_sys_script_include.CicdDemo.html)
+- [Code extraction](https://github.com/bmoers/sn-cicd-example-v3/tree/master/example/repo)
+- [ESLint report](http://htmlpreview.github.io/?https://github.com/bmoers/sn-cicd-example-v3/blob/master/example/doc/lint/index.html)
+- [JsDoc documentation](http://htmlpreview.github.io/?https://github.com/bmoers/sn-cicd-example-v3/blob/master/example/doc/docs/global.module_sys_script_include.CicdDemo.html)
 
 More information about the core module can be found here https://github.com/bmoers/sn-cicd#cicd-server-for-service-now-v3
 
