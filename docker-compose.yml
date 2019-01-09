@@ -1,0 +1,37 @@
+version: '2.1'
+
+services:
+  mid-server:
+    image: mid-server-london
+    build: mid-server/.
+    hostname: mid-server
+    #image: toolsproservia/sn-mid-server
+    env_file: .env
+    volumes: 
+      ["./logs:/opt/agent/logs"]
+    networks:
+      vpcbr:
+        ipv4_address: 10.5.0.5
+
+  sn-cicd-example-v3:
+    image: sn-cicd-example-v3
+    build: .
+    env_file: .env
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8080:8080
+      - 8443:8443
+    volumes: 
+      ["./root:/opt/cicd"]
+    networks:
+      vpcbr:
+        ipv4_address: 10.5.0.6
+
+networks:
+  vpcbr:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.5.0.0/16
+         gateway: 10.5.0.1
